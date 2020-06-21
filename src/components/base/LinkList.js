@@ -5,7 +5,7 @@ function LinkList({ linksArr }) {
         <div className='links'>
             {linksArr.map((item, i) => {
                 return (
-                    <p key={i}><a target='_blank' rel='noopener' href='{item.link}'>{item.title}</a></p>
+                    <p key={i}><a target='_blank' rel='noopener' href={item.link}>{item.title}</a></p>
                 )
             })}
         </div>
