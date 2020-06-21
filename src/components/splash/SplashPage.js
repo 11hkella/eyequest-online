@@ -3,15 +3,17 @@ import Navigation from './Navigation'
 import Education from './Education'
 import Donation from './Donation'
 
+import '../../style/splash/SplashPage.css'
+
 
 function SplashPage() {
     return (
         <div className='splash-page'>
             <div className='column'>
-                <Navigation />
+                <Education />
             </div>
             <div className='column'>
-                <Education />
+                <Navigation />
             </div>
             <div className='column'>
                 <Donation />
