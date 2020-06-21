@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eyequest-online/precache-manifest.2216f62108f1faf0504685970a16d6af.js"
+  "/eyequest-online/precache-manifest.49782239dff3abe5bbfe7ef297955979.js"
 );
 
 self.addEventListener('message', (event) => {
