@@ -1,9 +1,12 @@
 import React from 'react';
 
+import '../../style/splash/Navigation.css'
 
 function Navigation() {
     return (
-        <a href='http://eyequest.online/'>EYEQUEST ONLINE ZINE</a>
+        <div className='navigation'>
+            <p><a href='http://eyequest.online/'>EYEQUEST ONLINE ZINE</a></p>
+        </div>
     )
 }
 

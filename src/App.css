@@ -1,4 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
   height: 100vh;
+}
+
+a {
+  color: inherit;
 }
