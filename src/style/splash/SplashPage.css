@@ -2,17 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-image: url('/images/splash_bg.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 65%;
+    background-size: 60em;
 }
 
 .column{
     margin: 1.5em 3em;
-    /* width: 30%; */
     flex: 1 1 0;
     min-width: 14em;
+}
+
+.col3{
+    height: 90%;
 }

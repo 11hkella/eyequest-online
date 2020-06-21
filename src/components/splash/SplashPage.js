@@ -15,7 +15,7 @@ function SplashPage() {
             <div className='column'>
                 <Navigation />
             </div>
-            <div className='column'>
+            <div className='column col3'>
                 <Donation />
             </div>
         </div>

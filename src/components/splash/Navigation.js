@@ -1,11 +1,18 @@
 import React from 'react';
+import LinkList from '../base/LinkList'
 
 import '../../style/splash/Navigation.css'
 
 function Navigation() {
+    const pageLinks = [
+        {
+            link: 'http://eyequest.online/',
+            title: 'EYEQUEST ONLINE ZINE'
+        }
+    ]
     return (
         <div className='navigation'>
-            <p><a href='http://eyequest.online/'>EYEQUEST ONLINE ZINE</a></p>
+            <LinkList linksArr={pageLinks} />
         </div>
     )
 }
